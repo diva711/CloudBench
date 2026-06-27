@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "benchmark_type": "compute_latency",
+  "timestamp": "2026-06-26T22:13:40.456541+00:00",
+  "target_url": "http://20.124.240.168:5000/ping",
+  "total_requests": 900,
+  "successful": 900,
+  "errors": 0,
+  "error_rate_pct": 0.0,
+  "latency_ms": {
+    "min": 451.25,
+    "max": 818.58,
+    "mean": 598.92,
+    "p50": 613.75,
+    "p95": 621.55,
+    "p99": 717.42
+  }
+}

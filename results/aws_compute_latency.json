@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "benchmark_type": "compute_latency",
+  "timestamp": "2026-06-24T11:41:00.089457+00:00",
+  "target_url": "http://65.0.97.46/ping",
+  "total_requests": 1000,
+  "successful": 1000,
+  "errors": 0,
+  "error_rate_pct": 0.0,
+  "latency_ms": {
+    "min": 707.19,
+    "max": 77859.96,
+    "mean": 911.95,
+    "p50": 818.89,
+    "p95": 924.23,
+    "p99": 1740.54
+  }
+}

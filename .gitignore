@@ -1,0 +1,20 @@
+gcp-key.json
+*.pem
+*.ppk
+.aws/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/

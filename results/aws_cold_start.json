@@ -1,0 +1,22 @@
+{
+  "provider": "aws",
+  "benchmark_type": "cold_start",
+  "timestamp": "2026-06-25T09:31:46.201000+00:00",
+  "function_name": "cloudbench-cold-start",
+  "num_samples": 5,
+  "cold_start_ms": {
+    "min": 1750.35,
+    "max": 2053.31,
+    "mean": 1863.09,
+    "p50": 1850.58,
+    "p95": 2053.31,
+    "p99": 2053.31
+  },
+  "raw_measurements_ms": [
+    1750.35,
+    1804.61,
+    1850.58,
+    1856.59,
+    2053.31
+  ]
+}

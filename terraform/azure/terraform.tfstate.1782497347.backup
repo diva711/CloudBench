@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "terraform_version": "1.15.5",
+  "serial": 107,
+  "lineage": "b333066f-0dc2-4df7-a2c3-1a25b51368f3",
+  "outputs": {
+    "vm_public_ip": {
+      "value": "20.124.240.168",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "cloudbench",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/9e5452f1-627a-4cbd-916e-44a385a3021e/resourceGroups/cloudbench-rg",
+            "location": "eastus",
+            "managed_by": "",
+            "name": "cloudbench-rg",
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

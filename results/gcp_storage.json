@@ -1,0 +1,59 @@
+{
+  "provider": "gcp",
+  "benchmark_type": "storage_throughput",
+  "timestamp": "2026-06-25T20:35:32.773557+00:00",
+  "bucket": "cloudbench-results-diva",
+  "num_runs": 3,
+  "results_by_size": {
+    "1MB": {
+      "upload_ms": {
+        "mean": 425.15,
+        "min": 272.51,
+        "max": 689.97
+      },
+      "download_ms": {
+        "mean": 218.03,
+        "min": 205.28,
+        "max": 233.39
+      },
+      "upload_throughput_mbps": 2.35,
+      "download_throughput_mbps": 4.59
+    },
+    "10MB": {
+      "upload_ms": {
+        "mean": 575.42,
+        "min": 546.55,
+        "max": 612.72
+      },
+      "download_ms": {
+        "mean": 571.51,
+        "min": 554.45,
+        "max": 600.21
+      },
+      "upload_throughput_mbps": 17.38,
+      "download_throughput_mbps": 17.5
+    },
+    "100MB": {
+      "upload_ms": {
+        "mean": 3867.04,
+        "min": 3112.94,
+        "max": 4627.03
+      },
+      "download_ms": {
+        "mean": 3315.23,
+        "min": 3082.25,
+        "max": 3686.97
+      },
+      "upload_throughput_mbps": 25.86,
+      "download_throughput_mbps": 30.16
+    }
+  },
+  "latency_ms": {
+    "min": 546.55,
+    "max": 612.72,
+    "mean": 575.42,
+    "p50": 575.42,
+    "p95": 612.72,
+    "p99": 612.72
+  }
+}

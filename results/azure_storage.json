@@ -1,0 +1,60 @@
+{
+  "provider": "azure",
+  "benchmark_type": "storage_throughput",
+  "timestamp": "2026-06-26T22:30:48.872753+00:00",
+  "storage_account": "cloudbenchstorage001",
+  "container": "benchmarkdata",
+  "num_runs": 3,
+  "results_by_size": {
+    "1MB": {
+      "upload_ms": {
+        "mean": 906.98,
+        "min": 361.04,
+        "max": 1749.66
+      },
+      "download_ms": {
+        "mean": 2081.06,
+        "min": 1175.2,
+        "max": 3527.58
+      },
+      "upload_throughput_mbps": 1.1,
+      "download_throughput_mbps": 0.48
+    },
+    "10MB": {
+      "upload_ms": {
+        "mean": 884.85,
+        "min": 604.86,
+        "max": 1223.37
+      },
+      "download_ms": {
+        "mean": 4854.67,
+        "min": 4288.59,
+        "max": 5340.03
+      },
+      "upload_throughput_mbps": 11.3,
+      "download_throughput_mbps": 2.06
+    },
+    "100MB": {
+      "upload_ms": {
+        "mean": 12242.85,
+        "min": 10413.59,
+        "max": 15842.02
+      },
+      "download_ms": {
+        "mean": 63140.39,
+        "min": 41191.3,
+        "max": 102222.93
+      },
+      "upload_throughput_mbps": 8.17,
+      "download_throughput_mbps": 1.58
+    }
+  },
+  "latency_ms": {
+    "min": 604.86,
+    "max": 1223.37,
+    "mean": 884.85,
+    "p50": 884.85,
+    "p95": 1223.37,
+    "p99": 1223.37
+  }
+}

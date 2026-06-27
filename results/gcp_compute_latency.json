@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "benchmark_type": "compute_latency",
+  "timestamp": "2026-06-25T20:14:01.490704+00:00",
+  "target_url": "http://35.244.2.244/ping",
+  "total_requests": 1000,
+  "successful": 1000,
+  "errors": 0,
+  "error_rate_pct": 0.0,
+  "latency_ms": {
+    "min": 85.65,
+    "max": 375.91,
+    "mean": 101.93,
+    "p50": 98.31,
+    "p95": 117.99,
+    "p99": 173.43
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "provider": "azure",
+  "benchmark_type": "cold_start",
+  "timestamp": "2026-06-26T23:01:13.723660+00:00",
+  "function_name": "azure-flask-cold-start",
+  "num_samples": 5,
+  "cold_start_ms": {
+    "min": 569.55,
+    "max": 676.11,
+    "mean": 592.5,
+    "p50": 572.05,
+    "p95": 676.11,
+    "p99": 676.11
+  },
+  "raw_measurements_ms": [
+    569.55,
+    572.04,
+    572.05,
+    572.77,
+    676.11
+  ]
+}

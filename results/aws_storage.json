@@ -1,0 +1,59 @@
+{
+  "provider": "aws",
+  "benchmark_type": "storage_throughput",
+  "timestamp": "2026-06-25T10:00:43.071736+00:00",
+  "bucket": "cloudbench-results-cfe6a854",
+  "num_runs": 3,
+  "results_by_size": {
+    "1MB": {
+      "upload_ms": {
+        "mean": 4911.63,
+        "min": 4300.38,
+        "max": 5834.97
+      },
+      "download_ms": {
+        "mean": 444.46,
+        "min": 410.24,
+        "max": 512.24
+      },
+      "upload_throughput_mbps": 0.2,
+      "download_throughput_mbps": 2.25
+    },
+    "10MB": {
+      "upload_ms": {
+        "mean": 6244.28,
+        "min": 4910.12,
+        "max": 7373.72
+      },
+      "download_ms": {
+        "mean": 514.58,
+        "min": 510.06,
+        "max": 520.0
+      },
+      "upload_throughput_mbps": 1.6,
+      "download_throughput_mbps": 19.43
+    },
+    "100MB": {
+      "upload_ms": {
+        "mean": 71765.04,
+        "min": 38259.35,
+        "max": 88675.32
+      },
+      "download_ms": {
+        "mean": 415.07,
+        "min": 411.32,
+        "max": 420.65
+      },
+      "upload_throughput_mbps": 1.39,
+      "download_throughput_mbps": 240.92
+    }
+  },
+  "latency_ms": {
+    "min": 4910.12,
+    "max": 7373.72,
+    "mean": 6244.28,
+    "p50": 6244.28,
+    "p95": 7373.72,
+    "p99": 7373.72
+  }
+}
