@@ -26,7 +26,7 @@ Benchmark Agents (Python)
 ## Stack
 - **Infrastructure:** Terraform (AWS + GCP + Azure)
 - **Benchmarks:** Python (boto3, google-cloud-storage, azure-storage-blob, locust)
-- **Database:** PostgreSQL
+- **Database:** PostgreSQL 
 - **Dashboard:** Streamlit + Plotly
 - **Cloud:** AWS ap-south-1, GCP asia-south1, Azure eastus
 
