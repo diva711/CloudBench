@@ -1,20 +1,23 @@
+# Credentials
 gcp-key.json
 *.pem
 *.ppk
 .aws/
-terraform.tfstate
-terraform.tfstate.backup
-.terraform/
 *.tfvars
+
+# Terraform state — contains sensitive info
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+.terraform/
+.terraform.lock.hcl
 
 # Python
 __pycache__/
 *.pyc
 venv/
-*.egg-info/
 
-# VS Code
+# Misc
+trust-policy.json
 .vscode/
-
-# Streamlit
 .streamlit/
