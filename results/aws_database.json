@@ -1,0 +1,72 @@
+{
+  "provider": "aws",
+  "benchmark_type": "database_load",
+  "timestamp": "2026-06-29T08:06:21.390667+00:00",
+  "target_url": "cloudbench-db.czo8oiagck59.ap-south-1.rds.amazonaws.com",
+  "results_by_concurrency": {
+    "1": {
+      "concurrency": 1,
+      "total_queries": 20,
+      "total_time_ms": 3569.41,
+      "throughput_qps": 5.6,
+      "latency_ms": {
+        "min": 146.67,
+        "mean": 155.32,
+        "p50": 150.35,
+        "p95": 227.98,
+        "p99": 227.98,
+        "max": 227.98
+      }
+    },
+    "10": {
+      "concurrency": 10,
+      "total_queries": 200,
+      "total_time_ms": 3733.81,
+      "throughput_qps": 53.6,
+      "latency_ms": {
+        "min": 142.96,
+        "mean": 154.58,
+        "p50": 150.45,
+        "p95": 170.57,
+        "p99": 194.57,
+        "max": 198.72
+      }
+    },
+    "50": {
+      "concurrency": 50,
+      "total_queries": 1000,
+      "total_time_ms": 4310.44,
+      "throughput_qps": 232.0,
+      "latency_ms": {
+        "min": 142.3,
+        "mean": 166.09,
+        "p50": 153.15,
+        "p95": 213.49,
+        "p99": 232.89,
+        "max": 258.95
+      }
+    },
+    "100": {
+      "concurrency": 100,
+      "total_queries": 1440,
+      "total_time_ms": 4465.29,
+      "throughput_qps": 322.5,
+      "latency_ms": {
+        "min": 142.73,
+        "mean": 171.15,
+        "p50": 156.22,
+        "p95": 222.41,
+        "p99": 236.8,
+        "max": 405.31
+      }
+    }
+  },
+  "latency_ms": {
+    "min": 142.96,
+    "max": 198.72,
+    "mean": 154.58,
+    "p50": 150.45,
+    "p95": 170.57,
+    "p99": 194.57
+  }
+}

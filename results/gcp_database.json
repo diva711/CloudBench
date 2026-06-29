@@ -1,0 +1,72 @@
+{
+  "provider": "gcp",
+  "benchmark_type": "database_load",
+  "timestamp": "2026-06-29T08:06:19.224720+00:00",
+  "target_url": "34.93.103.37",
+  "results_by_concurrency": {
+    "1": {
+      "concurrency": 1,
+      "total_queries": 20,
+      "total_time_ms": 2654.79,
+      "throughput_qps": 7.5,
+      "latency_ms": {
+        "min": 111.18,
+        "mean": 117.81,
+        "p50": 113.18,
+        "p95": 204.15,
+        "p99": 204.15,
+        "max": 204.15
+      }
+    },
+    "10": {
+      "concurrency": 10,
+      "total_queries": 200,
+      "total_time_ms": 3088.29,
+      "throughput_qps": 64.8,
+      "latency_ms": {
+        "min": 117.41,
+        "mean": 128.18,
+        "p50": 128.69,
+        "p95": 140.05,
+        "p99": 148.36,
+        "max": 177.53
+      }
+    },
+    "50": {
+      "concurrency": 50,
+      "total_queries": 440,
+      "total_time_ms": 3486.61,
+      "throughput_qps": 126.2,
+      "latency_ms": {
+        "min": 108.67,
+        "mean": 132.74,
+        "p50": 126.67,
+        "p95": 192.79,
+        "p99": 211.37,
+        "max": 225.14
+      }
+    },
+    "100": {
+      "concurrency": 100,
+      "total_queries": 440,
+      "total_time_ms": 3911.97,
+      "throughput_qps": 112.5,
+      "latency_ms": {
+        "min": 106.45,
+        "mean": 143.07,
+        "p50": 134.35,
+        "p95": 193.26,
+        "p99": 212.83,
+        "max": 216.26
+      }
+    }
+  },
+  "latency_ms": {
+    "min": 117.41,
+    "max": 177.53,
+    "mean": 128.18,
+    "p50": 128.69,
+    "p95": 140.05,
+    "p99": 148.36
+  }
+}

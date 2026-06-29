@@ -69,3 +69,21 @@ resource "aws_instance" "benchmark_vm" {
     Project = "CloudBench"
   }
 }
+
+resource "aws_db_instance" "benchmark_db" {
+  identifier          = "cloudbench-db"
+  engine              = "postgres"
+  engine_version      = "15"
+  instance_class      = "db.t3.micro"
+  allocated_storage   = 20
+  db_name             = "benchmarkdb"
+  username            = "benchmarkadmin"
+  password            = "BenchmarkPass2024!"
+  skip_final_snapshot = true
+  publicly_accessible = true
+  tags = { Project = "CloudBench" }
+}
+
+output "rds_endpoint" {
+  value = aws_db_instance.benchmark_db.endpoint
+}

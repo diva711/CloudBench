@@ -1,0 +1,72 @@
+{
+  "provider": "azure",
+  "benchmark_type": "database_load",
+  "timestamp": "2026-06-29T08:02:54.781898+00:00",
+  "target_url": "cloudbench-db3.postgres.database.azure.com",
+  "results_by_concurrency": {
+    "1": {
+      "concurrency": 1,
+      "total_queries": 20,
+      "total_time_ms": 17029.32,
+      "throughput_qps": 1.2,
+      "latency_ms": {
+        "min": 742.15,
+        "mean": 746.94,
+        "p50": 744.22,
+        "p95": 796.03,
+        "p99": 796.03,
+        "max": 796.03
+      }
+    },
+    "10": {
+      "concurrency": 10,
+      "total_queries": 200,
+      "total_time_ms": 18276.07,
+      "throughput_qps": 10.9,
+      "latency_ms": {
+        "min": 725.39,
+        "mean": 778.26,
+        "p50": 780.7,
+        "p95": 819.33,
+        "p99": 860.83,
+        "max": 865.69
+      }
+    },
+    "50": {
+      "concurrency": 50,
+      "total_queries": 680,
+      "total_time_ms": 20157.02,
+      "throughput_qps": 33.7,
+      "latency_ms": {
+        "min": 730.22,
+        "mean": 800.61,
+        "p50": 795.42,
+        "p95": 851.49,
+        "p99": 900.18,
+        "max": 1282.83
+      }
+    },
+    "100": {
+      "concurrency": 100,
+      "total_queries": 680,
+      "total_time_ms": 21615.36,
+      "throughput_qps": 31.5,
+      "latency_ms": {
+        "min": 717.22,
+        "mean": 790.13,
+        "p50": 788.99,
+        "p95": 865.12,
+        "p99": 908.38,
+        "max": 1250.39
+      }
+    }
+  },
+  "latency_ms": {
+    "min": 725.39,
+    "max": 865.69,
+    "mean": 778.26,
+    "p50": 780.7,
+    "p95": 819.33,
+    "p99": 860.83
+  }
+}

@@ -2,7 +2,6 @@ import json
 import psycopg2
 from datetime import datetime
 
-# ─── CONFIG ───────────────────────────────────────────────────────────────────
 # For local development we connect directly to local PostgreSQL.
 # When deployed to AWS Lambda this will use RDS endpoint instead.
 DB_CONFIG = {
@@ -13,7 +12,7 @@ DB_CONFIG = {
     "password": "Nuclear$583"   
 }
 
-# ─── MAIN ETL FUNCTION ────────────────────────────────────────────────────────
+# MAIN ETL FUNCTION
 def process_benchmark_result(json_file_path):
     """
     Reads a benchmark result JSON file and inserts it into PostgreSQL.
@@ -85,10 +84,9 @@ def process_benchmark_result(json_file_path):
     print("Successfully inserted into database!")
     return record
 
-# ─── RUN ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     result = process_benchmark_result(
-    r"D:\CloudBench\results\azure_cold_start.json"
+    r"D:\CloudBench\results\aws_database.json"
     )
     print("\nInserted record:")
     for key, value in result.items():
